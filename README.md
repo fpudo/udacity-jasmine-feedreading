@@ -1,4 +1,4 @@
-# Read Me
+# Unit Testing with Jasmine
 
 To run this project open the index.html on your browser.
 

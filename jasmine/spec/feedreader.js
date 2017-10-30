@@ -96,8 +96,7 @@ $(function() {
        });
 
        it('it should have at least a single entry element.', function(){
-         let entry = document.querySelector(".feed").getElementsByClassName("entry").length;
-         expect(entry).not.toBe(0);
+         expect($('.feed .entry-link .entry').length).not.toBe(0);
        });
     });
 
